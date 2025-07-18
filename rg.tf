@@ -28,3 +28,10 @@ resource "azurerm_resource_group" "pramod" {
   location = "East US"
   
 }
+
+resource "azurerm_resource_group" "pramod2" {
+  name     = "pramod2"
+
+  location = "East US"
+  
+}
