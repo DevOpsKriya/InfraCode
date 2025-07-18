@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "practice" {
 }
 
 resource "azurerm_resource_group" "practice2" {
-  name     = "rg-practice2"
+  name     = "rg-practice3"
   location = "East US"
   
 }
