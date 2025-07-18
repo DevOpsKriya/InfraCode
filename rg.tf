@@ -16,8 +16,15 @@ resource "azurerm_resource_group" "practice2" {
   
 }
 
+
 resource "azurerm_resource_group" "swapnil" {
   name     = "swapnil-rg"
+   location = "East US"
+}
+
+resource "azurerm_resource_group" "pramod" {
+  name     = "pramod"
+
   location = "East US"
   
 }
