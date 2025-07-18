@@ -28,3 +28,8 @@ resource "azurerm_resource_group" "pramod" {
   location = "East US"
   
 }
+
+resource "azurerm_resource_group" "swapnil2" {
+  name     = "swapnil2-rg"
+   location = "East US"
+}
